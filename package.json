@@ -1,0 +1,31 @@
+{
+    "name": "rise-testnet-bot",
+    "version": "1.0.0",
+    "description": "A bot for interacting with Rise Testnet, including random transfers, Gas Pump operations, and Inari Bank functions.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/airdropinsiders/Rise-Testnet-Bot.git"
+    },
+    "author": "Airdrop Insiders",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/airdropinsiders/Rise-Testnet-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/Rise-Testnet-Bot#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "cli-spinners": "^2.9.2",
+        "dotenv": "^16.4.5",
+        "ethers": "^5.7.2",
+        "https-proxy-agent": "^7.0.5",
+        "web3rpcs": "^1.0.4"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
